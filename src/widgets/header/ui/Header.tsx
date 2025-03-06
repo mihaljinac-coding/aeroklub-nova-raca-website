@@ -2,78 +2,79 @@ import React from "react";
 
 export const Header: React.FC = () => {
   return (
-    <header className="w-full bg-white shadow-md fixed top-0 left-0 z-50">
-      <div className="max-w-7xl mx-auto px-4 flex items-center justify-between h-16">
-        {/* Logo */}
-        <div className="flex items-center">
+    <header className="w-full h-[13vh] bg-white shadow-md shadow-light-blue/25 fixed top-0 left-0 z-50">
+      <div className="max-w-7xl mx-auto px-4 flex flex-col items-center justify-between">
+        <div className="flex items-center pt-4 pb-4">
+        <a href="#aeroklub">
           <img
             src="/images/avio-logo.svg"
             alt="Avio Logo"
-            className="h-12 w-auto"
+            className="h-[4.5rem] w-auto"
           />
-        </div>
+        </a>
 
-        {/* Navigation */}
-        <nav>
-          <ul className="flex space-x-8">
-            <li>
-              <a
-                href="#o-aeroklubu"
-                className="text-gray-700 hover:text-gray-900"
-              >
-                O aeroklubu
-              </a>
-            </li>
-            <li>
-              <a
-                href="#novosti"
-                className="text-gray-700 hover:text-gray-900"
-              >
-                Novosti
-              </a>
-            </li>
-            <li>
-              <a
-                href="#clanstvo"
-                className="text-gray-700 hover:text-gray-900"
-              >
-                Članstvo
-              </a>
-            </li>
-            <li>
-              <a
-                href="#zracno-pristaniste"
-                className="text-gray-700 hover:text-gray-900"
-              >
-                Zračno pristanište
-              </a>
-            </li>
-            <li>
-              <a
-                href="#galerija"
-                className="text-gray-700 hover:text-gray-900"
-              >
-                Galerija
-              </a>
-            </li>
-            <li>
-              <a
-                href="#linkovi"
-                className="text-gray-700 hover:text-gray-900"
-              >
-                Linkovi
-              </a>
-            </li>
-            <li>
-              <a
-                href="#kontakt"
-                className="text-gray-700 hover:text-gray-900"
-              >
-                Kontakt
-              </a>
-            </li>
-          </ul>
-        </nav>
+        </div>
+        <div className="flex flex-row items-center pt-4 pb-4">
+          <nav>
+              <ul className="flex flex-row gap-6 space-x-8">
+                <li className="text-xl">
+                  <a
+                    href="#o-aeroklubu"
+                    className="text-dark-blue hover:border-b-4 border-light-blue"
+                  >
+                    O aeroklubu
+                  </a>
+                </li>
+                <li className="text-xl">
+                  <a
+                    href="#novosti"
+                    className="text-dark-blue hover:border-b-4 border-light-blue"
+                  >
+                    Novosti
+                  </a>
+                </li>
+                <li className="text-xl">
+                  <a
+                    href="#clanstvo"
+                    className="text-dark-blue hover:border-b-4 border-light-blue"
+                  >
+                    Članstvo
+                  </a>
+                </li>
+                <li className="text-xl">
+                  <a
+                    href="#zracno-pristaniste"
+                    className="text-dark-blue hover:border-b-4 border-light-blue"
+                  >
+                    Zračno pristanište
+                  </a>
+                </li>
+                <li className="text-xl">
+                  <a
+                    href="#galerija"
+                    className="text-dark-blue hover:border-b-4 border-light-blue"
+                  >
+                    Galerija
+                  </a>
+                </li>
+                <li className="text-xl">
+                  <a
+                    href="#linkovi"
+                    className="text-dark-blue hover:border-b-4 border-light-blue"
+                  >
+                    Linkovi
+                  </a>
+                </li>
+                <li className="text-xl">
+                  <a
+                    href="#kontakt"
+                    className="text-dark-blue hover:border-b-4 border-light-blue">
+                    Kontakt
+                  </a>
+                </li>
+              </ul>
+            </nav>
+        </div>
       </div>
     </header>
   );

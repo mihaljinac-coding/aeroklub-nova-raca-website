@@ -16,6 +16,15 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        "dark-blue": "#0d2438",
+        "light-blue": "#88b9e1"
+      },
+      backgroundImage: {
+        'hero-pattern': "url('/images/hero.svg')",
+      },
+      fontFamily: {
+        inter: ["Inter", "sans-serif"],
+        alexandria: ["Alexsandria", "sans-serif"]
       },
     },
   },
