@@ -2,7 +2,7 @@ import React from "react";
 
 export const Header: React.FC = () => {
   return (
-    <header className="w-full h-[13vh] bg-white shadow-md shadow-light-blue/25 fixed top-0 left-0 z-50">
+    <header className="w-full h-[165px] bg-white shadow-md shadow-light-blue/25 fixed top-0 left-0 z-50">
       <div className="max-w-7xl mx-auto px-4 flex flex-col items-center justify-between">
         <div className="flex items-center pt-4 pb-4">
         <a href="#aeroklub">

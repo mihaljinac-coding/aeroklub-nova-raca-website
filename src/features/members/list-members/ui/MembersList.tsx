@@ -36,15 +36,16 @@ import { Member } from "@/entities/memeber/types";
 
 
   return (
-    <section>
-      <h2>Members</h2>
-      <ul>
-        {members.map((member) => (
-          <li key={member.id}>
-            <strong>{member.name}</strong> - {member.role}
-          </li>
-        ))}
-      </ul>
-    </section>
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 pt-7 pb-7 pr-24 pl-24">
+    {members.map((member, idx) => (
+      <div
+        key={member.id || idx}
+        className="bg-white rounded-2xl shadow-md p-4 h-[131px] flex flex-col justify-between transition-transform duration-300 ease-in-out hover:scale-105"
+      >
+        <h3 className="text-lg font-semibold text-dark-blue">{member.name}</h3>
+        <p className="text-sm text-gray-500">{member.role}</p>
+      </div>
+    ))}
+  </div>
   );
 };

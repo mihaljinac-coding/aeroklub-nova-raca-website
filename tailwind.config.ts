@@ -17,7 +17,8 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
         "dark-blue": "#0d2438",
-        "light-blue": "#88b9e1"
+        "light-blue": "#88b9e1",
+        "background-blue": "#e5edf4"
       },
       backgroundImage: {
         'hero-pattern': "url('/images/hero.svg')",
