@@ -22,7 +22,7 @@ export default {
       },
       backgroundImage: {
         'hero-desktop': "url('images/hero.svg')",
-        'hero-mobile': "url('images/hero-mobile.svg')"
+        'hero-mobile': "url('/images/hero-mobile.svg')"
       },
       fontFamily: {
         inter: ["Inter", "sans-serif"],
