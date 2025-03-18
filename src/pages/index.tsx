@@ -88,10 +88,10 @@ export default function HomePage() {
                   <hr className="border border-black border-opacity-20"></hr>
                   <div className="flex flex-col gap-1">                  
                     <p className="text-xl font-light text-dark-blue">Location: Nova Rača, Croatia</p>
-                    <p className="text-xl font-light text-dark-blue">N 45° 47' 12.96</p>
-                    <p className="text-xl font-light text-dark-blue"> E 16° 57' 49.68</p>
-                    <p className="text-xl font-light text-dark-blue">Elevation 431' (131 met)</p>
-                    <p className="text-xl font-light text-dark-blue">Runway: 05 - 23 , 595 x 10 met. (1952' x 33') asphalt</p>
+                    <p className="text-xl font-light text-dark-blue">N 45° 47&#39; 12.96</p>
+                    <p className="text-xl font-light text-dark-blue">E 16° 57&#39; 49.68</p>
+                    <p className="text-xl font-light text-dark-blue">Elevation 431&#39; (131 met)</p>
+                    <p className="text-xl font-light text-dark-blue">Runway: 05 - 23 , 595 x 10 met. (1952&#39; x 33&#39;) asphalt</p>
                   </div>
                   <div className="flex flex-col gap-1">                  
                     <p className="text-xl font-light text-dark-blue">OTHER INFORMATION</p>
