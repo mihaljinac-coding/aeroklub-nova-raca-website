@@ -44,7 +44,7 @@ export const Header: React.FC = () => {
           <div className="flex items-center justify-between md:justify-center w-full pt-4 pb-4">
             <a href="#aeroklub">
               <img
-                src="/images/avio-logo.svg"
+                src="images/avio-logo.svg"
                 alt="Avio Logo"
                 className="h-[4.5rem] w-auto"
               />
