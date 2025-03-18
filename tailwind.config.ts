@@ -21,7 +21,8 @@ export default {
         "background-blue": "#e5edf4"
       },
       backgroundImage: {
-        'hero-pattern': "url('/images/hero.svg')",
+        'hero-desktop': "url('/images/hero.svg')",
+        'hero-mobile': "url('/images/hero-mobile.svg')"
       },
       fontFamily: {
         inter: ["Inter", "sans-serif"],

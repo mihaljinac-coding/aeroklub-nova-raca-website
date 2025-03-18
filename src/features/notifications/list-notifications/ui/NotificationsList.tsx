@@ -35,7 +35,7 @@ export const NotificationsList: React.FC = () => {
   if (loading) return <div>Loading...</div>;
 
   return (
-    <div className=" pb-12 pr-24 pl-24 w-full">
+    <div className=" pb-12 px-4 md:px-24 w-full">
       {loading ? (
         <p>Učitavanje...</p>
       ) : notifications.length === 0 ? (
@@ -95,7 +95,7 @@ export const NotificationsList: React.FC = () => {
           {notifications.map((notif, idx) => (
             <div
               key={notif.id || idx}
-              className="flex flex-col gap-4 h-[230px] w-full bg-white rounded-2xl shadow p-4"
+              className="flex flex-col gap-4 md:h-[230px] h-auto w-full bg-white rounded-2xl shadow p-4"
             >
               <h3 className="text-2xl font-light">{notif.title}</h3>
               <hr className="border border-black border-opacity-20"></hr>

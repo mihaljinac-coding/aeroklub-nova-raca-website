@@ -36,7 +36,7 @@ import { Member } from "@/entities/memeber/types";
 
 
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 pt-7 pb-7 pr-24 pl-24">
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 pt-7 pb-7 px-4 md:px-24">
     {members.map((member, idx) => (
       <div
         key={member.id || idx}
