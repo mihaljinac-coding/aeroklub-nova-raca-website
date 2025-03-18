@@ -9,7 +9,7 @@ export const NotificationsList: React.FC = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch("/data/notifications.csv")
+    fetch("data/notifications.csv")
       .then((response) => response.text())
       .then((csvText) => {
         const { data } = Papa.parse(csvText, {

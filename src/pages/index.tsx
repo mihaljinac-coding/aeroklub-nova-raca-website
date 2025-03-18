@@ -46,13 +46,13 @@ export default function HomePage() {
                 </p>
               </div>
               <div className="flex justify-center md:justify-end w-full md:w-1/2">
-                <img src="/images/avion.svg" alt="Avion" className="w-auto max-w-full" />
+                <img src="images/avion.svg" alt="Avion" className="w-auto max-w-full" />
               </div>
             </div>
 
             <div className="flex flex-col md:flex-row gap-6 md:gap-12 pt-7 pb-7 px-6 md:px-24">
               <div className="flex justify-center md:justify-start w-full md:w-1/2 order-2 md:order-1">
-                <img src="/images/avion.svg" alt="Avion" className="w-auto max-w-full" />
+                <img src="images/avion.svg" alt="Avion" className="w-auto max-w-full" />
               </div>
               <div className="flex flex-col justify-center w-full md:w-1/2 gap-4 order-1 md:order-2">
                 <h3 className="text-3xl text-dark-blue font-light">Povijest</h3>
@@ -104,7 +104,7 @@ export default function HomePage() {
                   </div>
                 </div>
                 <div className="flex flex-row md:w-1/2 w-full justify-end md:h-[500px] rounded-2xl">
-                  <img src="/images/pista.jpg" alt="pista" className="w-full h-auto rounded-2xl"/>
+                  <img src="images/pista.jpg" alt="pista" className="w-full h-auto rounded-2xl"/>
                 </div>
               </div>
           </div>
@@ -179,7 +179,7 @@ export default function HomePage() {
                   <p className="text-xl font-light text-dark-blue">E-mail : airport@nova-raca.hr</p>
                 </div>
                 <div className="flex flex-row md:w-1/2 w-full justify-end md:h-[500px] rounded-2xl">
-                  <img src="/images/map.svg" alt="map" className="w-full h-auto rounded-2xl"/>
+                  <img src="images/map.svg" alt="map" className="w-full h-auto rounded-2xl"/>
                 </div>
               </div>
           </div>

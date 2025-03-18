@@ -7,7 +7,7 @@ import { Member } from "@/entities/memeber/types";
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch("/data/members.csv")
+    fetch("data/members.csv")
       .then((response) => response.text())
       .then((csvText) => {
 
